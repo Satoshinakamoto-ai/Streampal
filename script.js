@@ -2462,7 +2462,7 @@ function movieinitexample() {
         ////console.log(e);
       });
 
-    fetch('https://api.themoviedb.org/3/discover/movie?language=en-US&region=US%7CUK&sort_by=release_date.desc&page=1&primary_release_year=${currentYear}%7C2022&watch_region=US%7CUK&with_original_language=en&with_release_type=3&primary_release_date.lte=${currentYear}-02-14', {
+    fetch(`https://api.themoviedb.org/3/discover/movie?language=en-US&region=US%7CUK&sort_by=release_date.desc&page=1&primary_release_year=${currentYear}%7C2022&watch_region=US%7CUK&with_original_language=en&with_release_type=3&primary_release_date.lte=${currentYear}-02-14`, {
       method: 'GET',
       headers: {
         'authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYTljY2JkNDViNmY1MTJjN2E0YWZmMzA5MjIxZDgyOCIsInN1YiI6IjYzZDBhM2M3NjZhZTRkMDA5ZTlkZjY4MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.N5j1M7YnwmMTjIWMdYQbdh5suW2hCDucbqlDgMku_UA',
