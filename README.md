@@ -61,3 +61,5 @@ We deprecated the concept and implementation of ipfs due to the slow serving spe
 - Although we advise how to publish and where to publish we trust the users will properly post legal content that does not infringe on any Copyrights!
 
 Shatoshi Nakamoto waz here.... the original name Sha was took out and replace with sa by the team to cover the algorithm utilized although the algorithm used is still a custom made version of sha-256 algorithm to prevent rainbow hash table attacks and more which was made by me not allowed to be publicly known.
+Commonly referred to as the AW-SHA-256-RAINX
+due to its unique nature of being a Algorithm Wrapper of Sha256 and prevents rainbow hash table attacks due to its ability to grow and decrease output size basically scrambling the dataset being hashed along with a 2 wag digest to make it encryptable and decryptable. And using a very unique Xcution style manner to execute it.
