@@ -7,6 +7,27 @@ body {
   margin: 0rem;
 }
 
+.kofi-custom-button {
+    /* Base styles */
+    background-color: #ff5e5e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    /* Positioning to make it scrollable in view */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.kofi-custom-button:hover {
+    /* Hover styles */
+    background-color: #e74c3c;
+    transform: scale(1.05); /* Optional: slight animation */
+}
+
+
 .card2[data-tag="checked"] { 
   /*transition: .5s;*/
   background-color: #000000;
